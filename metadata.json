@@ -1,0 +1,8 @@
+{
+  "name": "Forward Surge Consultants",
+  "description": "Corporate website for Forward Surge Consultants, focusing on strategy, leadership, and management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
