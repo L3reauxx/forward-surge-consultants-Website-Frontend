@@ -178,7 +178,7 @@ export default function About() {
                   <div className="absolute top-0 right-0 -mr-8 -mt-8 w-48 h-48 bg-slate-50 rounded-full blur-3xl group-hover:bg-brand-50 transition-colors duration-500 z-0"></div>
                   
                   <div className="relative z-10">
-                    <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-slate-50 text-brand-500 group-hover:bg-brand-50 group-hover:text-brand-600 transition-colors mb-6 shadow-sm">
+                    <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-slate-50 text-brand-500 group-hover:bg-brand-50 transition-colors mb-6 shadow-sm">
                       <Icon className="w-8 h-8" />
                     </div>
                     <h3 className="text-2xl lg:text-3xl font-display font-extrabold text-slate-900 mb-4 tracking-tight">{value.name}</h3>

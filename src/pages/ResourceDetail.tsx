@@ -47,7 +47,7 @@ export default function ResourceDetail() {
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
             >
-              <Link to="/resources" className="inline-flex items-center text-slate-500 hover:text-brand-600 transition-colors font-medium text-sm uppercase tracking-wider mb-8">
+              <Link to="/resources" className="inline-flex items-center text-slate-500 hover:text-brand-500 transition-colors font-medium text-sm uppercase tracking-wider mb-8">
                 <ArrowLeft className="w-4 h-4 mr-2" />
                 Back to resources
               </Link>

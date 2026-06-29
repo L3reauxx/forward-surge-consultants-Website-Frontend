@@ -43,14 +43,18 @@ export default function Footer() {
                 alt="Forward Surge Consultants"
                 className="h-10 object-contain"
               />
-              <div className="flex flex-col justify-center pt-1">
-                <span className="font-extrabold text-xl tracking-tight uppercase text-slate-900 leading-none">
-                  Forward Surge
+              <div className="flex flex-col justify-center pt-1 w-full max-w-[190px]">
+                <span className="font-extrabold text-[22px] tracking-tight uppercase text-slate-900 leading-none flex justify-between">
+                  <span>FORWARD</span><span className="text-brand-500">SURGE</span>
                 </span>
-                <div className="h-px bg-slate-300 w-full my-1"></div>
-                <span className="font-light text-[10px] tracking-[0.4em] uppercase text-slate-500 leading-none">
-                  Consultants
-                </span>
+                <div className="h-[1.5px] bg-slate-300 w-full my-1"></div>
+                <div className="flex justify-between w-full">
+                  {"CONSULTANTS".split("").map((letter, i) => (
+                    <span key={i} className="font-light text-[10.5px] uppercase text-slate-500 leading-none">
+                      {letter}
+                    </span>
+                  ))}
+                </div>
               </div>
             </Link>
             <p className="text-xs leading-relaxed text-slate-500">
